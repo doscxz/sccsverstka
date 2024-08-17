@@ -1,0 +1,127 @@
+.drop-down_list{
+   display: flex;
+   flex-direction: column;
+   row-gap: 30px;
+
+}
+.drop_list{
+   background-color: var(--color-gray);
+   display: flex;
+   border: 1px solid var(--color-dark);
+   box-shadow: 0px 5px 0px 0px solid var(--color-dark);
+   border-radius: var(--border-radius-large);
+   cursor: pointer;
+   user-select: none;
+
+
+   &[open]{
+      animation-name: fadeInDown;
+      animation-duration: 0.3s;
+
+      @keyframes fadeInDown {
+         0% {
+             opacity: 0;
+             transform: translateY(10px);
+         }
+         50%{
+            opacity: 0.5;
+            transform: translateY(5px);
+         }
+         100% {
+             opacity: 1;
+             transform: translateY(0);
+
+         }
+     }
+     transition: height 1s ease;
+      background-color: var(--color-accent);
+      .drop_list__item--btnActive--buttonY{
+         transition-duration: var(--transition-duration);
+         rotate: 90deg;
+      }
+   }
+   &__item{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      padding: 41px 60px;
+      &--btnActive{
+         width: 58px;
+         height: 58px;
+         background-color: var(--color-gray);
+         border-radius: 50%;
+         border: 1px solid var(--color-dark);
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         @include mobile{
+            width: 29px;
+            height: 29px;
+         }
+         &--buttonX{
+            width: 25px;
+            height: 6px;
+            background-color: var(--color-dark);
+
+            @include mobile{
+               width: 12px;
+               height: 3px;
+            }
+         }
+         &--buttonY{
+            position: absolute;
+            width: 6px;
+            height: 25px;
+            background-color: var(--color-dark);
+            transition-duration: var(--transition-duration);
+
+            @include mobile{
+               width: 12px;
+               height: 3px;
+            }
+         }
+      }
+      &--lable{
+         display: flex;
+         align-items: center;
+         gap: 20px;
+         &--number{
+            font-size: 60px;
+            font-weight: 600;
+            @include mobile{
+               font-size: 30px;
+            }
+         }
+         &--name{
+            font-size: 30px;
+            font-weight: 600;
+            @include mobile{
+               font-size: 15px;
+            }
+         }
+      }
+
+   }
+
+   &--info{
+      transition-duration: 1s;
+      &--line{
+         margin-inline: 60px;
+         margin-bottom: 30px;
+         background-color: var(--color-dark);
+         width: auto;
+         height: 2px;
+      }
+
+      &--text{
+         margin-inline: 60px;
+         margin-bottom: 41px;
+      }
+   }
+
+   @include hover{
+      background-color: var(--color-accent);
+
+   }
+}

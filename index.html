@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./styles/styles.css">
+   <script src="./main.js" defer></script>
+   <title>Pozitive</title>
+</head>
+
+<body>
+    <header class="header">
+      <div class="header__inner  container">
+        <a class="header__logo logo" href="/">
+          <img
+            class="logo__image"
+            src="./img/Logo.svg"
+            alt="Positivus"
+            width="220" height="36" loading="lazy"
+          />
+        </a>
+        <nav class="header__menu hidden-mobile">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/">About us</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/">Services</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/">Use Cases</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/">Pricing</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="/">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <button
+          class="header__button button button--transparent hidden-mobile"
+          type="button"
+        >
+          Request a quote
+        </button>
+        <button
+          class="header__burger-button burger-button visible-mobile"
+          type="button"
+          onclick="mobileOverlay.showModal()"
+        >
+          <span class="visually-hidden">Open navigation menu</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="content container">
+      <section class="section section--hidden-x container">
+
+        <div class="section__body">
+          <div class="hero">
+
+            <div class="hero__main">
+              <div class="hero__body">
+                <h1 class="hero__title">Navigating the digital landscape for success</h1>
+                <div class="hero__description">
+                  <p>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+                </div>
+                <button class="hero__button button">Book a consultation</button>
+              </div>
+                <img 
+                src="./img/Illustration.svg" 
+                width="600"
+                height="515"
+                alt="" 
+                class="hero__image">
+            </div>
+
+            <div class="hero__partners">
+              <h2 class="visually-hidden">Our partners</h2>
+              <ul class="hero__partners-list">
+                <li class="hero__partners-item">
+                  <img 
+                  width="130"
+                  height="48"
+                  src="./img/partners/Company logo.svg" 
+                  alt="/" 
+                  class="hero__partners-image">
+                </li>
+                <li class="hero__partners-item">
+                  <img 
+                  width="130"
+                  height="48"
+                  src="./img/partners/Company logo2.svg" 
+                  alt="/" 
+                  class="hero__partners-image">
+                </li>
+                <li class="hero__partners-item">
+                  <img 
+                  width="130"
+                  height="48"
+                  src="./img/partners/Company logo3.svg" 
+                  alt="/" 
+                  class="hero__partners-image">
+                </li>
+                <li class="hero__partners-item">
+                  <img 
+                  width="130"
+                  height="48"
+                  src="./img/partners/Company logo4.svg" 
+                  alt="/" 
+                  class="hero__partners-image">
+                </li>
+                <li class="hero__partners-item">
+                  <img 
+                  width="130"
+                  height="48"
+                  src="./img/partners/Company logo5.svg" 
+                  alt="/" 
+                  class="hero__partners-image">
+                </li>
+                <li class="hero__partners-item">
+                  <img 
+                  width="130"
+                  height="48"
+                  src="./img/partners/Company logo6.svg" 
+                  alt="/" 
+                  class="hero__partners-image">
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section container">
+        <header class="section__header">
+          <h2 class="section__title puddle-bg">Services</h2>
+          <div class="section__description">
+            <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+          </div>
+        </header>
+        <div class="section__body">
+          <div class="services"> 
+            <ul class="services__list grid grid--2">
+              <li class="services__item">
+                <article class="service-card">
+                  <div class="service-card__body">
+                    <h3 class="service-card__title">
+                      <span class="puddle-bg">Search engine</span>
+                      <span class="puddle-bg">optimization</span>
+                    </h3>
+                    <a href="" class="service-card__link">
+                      <span class="service-card__link-icon-wrapper">
+                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1.25 13.7009C0.532561 14.1151 0.286748 15.0325 0.700962 15.7499C1.11518 16.4674 2.03256 16.7132 2.75 16.299L1.25 13.7009ZM20.7694 5.38817C20.9838 4.58797 20.5089 3.76546 19.7087 3.55105L6.66874 0.0569931C5.86854 -0.15742 5.04603 0.317454 4.83162 1.11765C4.61721 1.91785 5.09208 2.74036 5.89228 2.95477L17.4834 6.0606L14.3776 17.6517C14.1631 18.4519 14.638 19.2744 15.4382 19.4888C16.2384 19.7032 17.0609 19.2284 17.2753 18.4282L20.7694 5.38817ZM2.75 16.299L20.0705 6.29898L18.5705 3.7009L1.25 13.7009L2.75 16.299Z" fill="#B9FF66"/>
+                        </svg>
+                      </span>
+                      <span class="service-card__link-label">Learn more</span>
+                    </a>
+                  </div>
+                  <img src="./img/icon/elements_1.svg" 
+                  alt=""
+                  width="210" height="170" loading="lazy"
+                  class="service-card__image">
+                </article>
+              </li>
+              <li class="services__item">
+                <article class="service-card service-card--accent-bg">
+                  <div class="service-card__body">
+                    <h3 class="service-card__title">
+                      <span class="puddle-bg puddle-bg--light">Pay-per-click</span>
+                      <span class="puddle-bg puddle-bg--light">advertising</span>
+                    </h3>
+                    <a href="" class="service-card__link">
+                      <span class="service-card__link-icon-wrapper">
+                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1.25 13.7009C0.532561 14.1151 0.286748 15.0325 0.700962 15.7499C1.11518 16.4674 2.03256 16.7132 2.75 16.299L1.25 13.7009ZM20.7694 5.38817C20.9838 4.58797 20.5089 3.76546 19.7087 3.55105L6.66874 0.0569931C5.86854 -0.15742 5.04603 0.317454 4.83162 1.11765C4.61721 1.91785 5.09208 2.74036 5.89228 2.95477L17.4834 6.0606L14.3776 17.6517C14.1631 18.4519 14.638 19.2744 15.4382 19.4888C16.2384 19.7032 17.0609 19.2284 17.2753 18.4282L20.7694 5.38817ZM2.75 16.299L20.0705 6.29898L18.5705 3.7009L1.25 13.7009L2.75 16.299Z" fill="#B9FF66"/>
+                        </svg>
+                      </span>
+                      <span class="service-card__link-label">Learn more</span>
+                    </a>
+                  </div>
+                  <img src="./img/icon/elements_2.svg" 
+                  alt=""
+                  width="210" height="170" loading="lazy"
+                  class="service-card__image">
+                </article>
+              </li>
+              <li class="services__item">
+                <article class="service-card service-card--dark-bg">
+                  <div class="service-card__body">
+                    <h3 class="service-card__title">
+                      <span class="puddle-bg puddle-bg--light">Social Media</span>
+                      <span class="puddle-bg puddle-bg--light">Marketing</span>
+                    </h3>
+                    <a href="" class="service-card__link service-card__link--light">
+                      <span class="service-card__link-icon-wrapper">
+                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1.25 13.7009C0.532561 14.1151 0.286748 15.0325 0.700962 15.7499C1.11518 16.4674 2.03256 16.7132 2.75 16.299L1.25 13.7009ZM20.7694 5.38817C20.9838 4.58797 20.5089 3.76546 19.7087 3.55105L6.66874 0.0569931C5.86854 -0.15742 5.04603 0.317454 4.83162 1.11765C4.61721 1.91785 5.09208 2.74036 5.89228 2.95477L17.4834 6.0606L14.3776 17.6517C14.1631 18.4519 14.638 19.2744 15.4382 19.4888C16.2384 19.7032 17.0609 19.2284 17.2753 18.4282L20.7694 5.38817ZM2.75 16.299L20.0705 6.29898L18.5705 3.7009L1.25 13.7009L2.75 16.299Z" fill="#B9FF66"/>
+                        </svg>
+                      </span>
+                      <span class="service-card__link-label ">Learn more</span>
+                    </a>
+                  </div>
+                  <img src="./img/icon/elements_3.svg" 
+                  alt=""
+                  width="210" height="170" loading="lazy"
+                  class="service-card__image">
+                </article>
+              </li>
+              <li class="services__item">
+                <article class="service-card">
+                  <div class="service-card__body">
+                    <h3 class="service-card__title">
+                      <span class="puddle-bg">Email</span>
+                      <span class="puddle-bg">Marketing</span>
+                    </h3>
+                    <a href="" class="service-card__link">
+                      <span class="service-card__link-icon-wrapper">
+                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1.25 13.7009C0.532561 14.1151 0.286748 15.0325 0.700962 15.7499C1.11518 16.4674 2.03256 16.7132 2.75 16.299L1.25 13.7009ZM20.7694 5.38817C20.9838 4.58797 20.5089 3.76546 19.7087 3.55105L6.66874 0.0569931C5.86854 -0.15742 5.04603 0.317454 4.83162 1.11765C4.61721 1.91785 5.09208 2.74036 5.89228 2.95477L17.4834 6.0606L14.3776 17.6517C14.1631 18.4519 14.638 19.2744 15.4382 19.4888C16.2384 19.7032 17.0609 19.2284 17.2753 18.4282L20.7694 5.38817ZM2.75 16.299L20.0705 6.29898L18.5705 3.7009L1.25 13.7009L2.75 16.299Z" fill="#B9FF66"/>
+                        </svg>
+                      </span>
+                      <span class="service-card__link-label">Learn more</span>
+                    </a>
+                  </div>
+                  <img src="./img/icon/elements_4.svg" 
+                  alt=""
+                  width="210" height="170" loading="lazy"
+                  class="service-card__image">
+                </article>
+              </li>
+              <li class="services__item">
+                <article class="service-card service-card--accent-bg">
+                  <div class="service-card__body">
+                    <h3 class="service-card__title">
+                      <span class="puddle-bg puddle-bg--light">Content</span>
+                      <span class="puddle-bg puddle-bg--light">Creation</span>
+                    </h3>
+                    <a href="" class="service-card__link">
+                      <span class="service-card__link-icon-wrapper">
+                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1.25 13.7009C0.532561 14.1151 0.286748 15.0325 0.700962 15.7499C1.11518 16.4674 2.03256 16.7132 2.75 16.299L1.25 13.7009ZM20.7694 5.38817C20.9838 4.58797 20.5089 3.76546 19.7087 3.55105L6.66874 0.0569931C5.86854 -0.15742 5.04603 0.317454 4.83162 1.11765C4.61721 1.91785 5.09208 2.74036 5.89228 2.95477L17.4834 6.0606L14.3776 17.6517C14.1631 18.4519 14.638 19.2744 15.4382 19.4888C16.2384 19.7032 17.0609 19.2284 17.2753 18.4282L20.7694 5.38817ZM2.75 16.299L20.0705 6.29898L18.5705 3.7009L1.25 13.7009L2.75 16.299Z" fill="#B9FF66"/>
+                        </svg>
+                      </span>
+                      <span class="service-card__link-label">Learn more</span>
+                    </a>
+                  </div>
+                  <img src="./img/icon/elements_5.svg" 
+                  alt=""
+                  width="210" height="170" loading="lazy"
+                  class="service-card__image">
+                </article>
+              </li>
+              <li class="services__item">
+                <article class="service-card service-card--dark-bg">
+                  <div class="service-card__body">
+                    <h3 class="service-card__title">
+                      <span class="puddle-bg puddle-bg--light">Analytics and </span>
+                      <span class="puddle-bg puddle-bg--light">Tracking</span>
+                    </h3>
+                    <a href="" class="service-card__link service-card__link--light">
+                      <span class="service-card__link-icon-wrapper">
+                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1.25 13.7009C0.532561 14.1151 0.286748 15.0325 0.700962 15.7499C1.11518 16.4674 2.03256 16.7132 2.75 16.299L1.25 13.7009ZM20.7694 5.38817C20.9838 4.58797 20.5089 3.76546 19.7087 3.55105L6.66874 0.0569931C5.86854 -0.15742 5.04603 0.317454 4.83162 1.11765C4.61721 1.91785 5.09208 2.74036 5.89228 2.95477L17.4834 6.0606L14.3776 17.6517C14.1631 18.4519 14.638 19.2744 15.4382 19.4888C16.2384 19.7032 17.0609 19.2284 17.2753 18.4282L20.7694 5.38817ZM2.75 16.299L20.0705 6.29898L18.5705 3.7009L1.25 13.7009L2.75 16.299Z" fill="#B9FF66"/>
+                        </svg>
+                      </span>
+                      <span class="service-card__link-label">Learn more</span>
+                    </a>
+                  </div>
+                  <img src="./img/icon/elements_6.svg" 
+                  alt=""
+                  width="210" height="170" loading="lazy"
+                  class="service-card__image">
+                </article>
+              </li>
+            </ul>
+            <div class="services__banner banner">
+              <div class="banner__inner">
+                <div class="banner__body"> 
+                  <h3 class="banner__title">Let’s make things happen</h3>
+                  <div class="banner__description">
+                    <p>Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
+                  </div>
+                  <buttin class="button__baner button">Get your free proposal</buttin>
+                </div>
+                <img 
+                src="./img/banner_bg.svg" 
+                alt="" 
+                class="banner__image hidden-mobile"
+                width="493"
+                height="394" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--hidden-x container">
+        <header class="section__header">
+          <h2 class="section__title puddle-bg">Case Studies</h2>
+          <div class="section__description">
+            <p>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
+          </div>
+        </header>
+
+        <div class="section_signboard">
+          <article class="section_signboard__container">
+            <div class="section_signboard__label">
+              <span class="section_signboard__label--text">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</span>
+              <span class="section_signboard__card">
+                <span class="section_signboard__card--link">Learn more</span>
+                <span class="section_signboard__card--item"> 
+                  <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.25 13.7009C0.532561 14.1151 0.286748 15.0325 0.700962 15.7499C1.11518 16.4674 2.03256 16.7132 2.75 16.299L1.25 13.7009ZM20.7694 5.38817C20.9838 4.58797 20.5089 3.76546 19.7087 3.55105L6.66874 0.0569931C5.86854 -0.15742 5.04603 0.317454 4.83162 1.11765C4.61721 1.91785 5.09208 2.74036 5.89228 2.95477L17.4834 6.0606L14.3776 17.6517C14.1631 18.4519 14.638 19.2744 15.4382 19.4888C16.2384 19.7032 17.0609 19.2284 17.2753 18.4282L20.7694 5.38817ZM2.75 16.299L20.0705 6.29898L18.5705 3.7009L1.25 13.7009L2.75 16.299Z" fill="#B9FF66"/>
+                  </svg>
+                </span> 
+              </span>
+            </div>
+
+            <div class="section_signboard--line"></div>
+
+            <div class="section_signboard__label">
+              <span class="section_signboard__label--text">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</span>
+              <span class="section_signboard__card">
+                <span class="section_signboard__card--link">Learn more</span>
+                <span class="section_signboard__card--item"> 
+                  <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.25 13.7009C0.532561 14.1151 0.286748 15.0325 0.700962 15.7499C1.11518 16.4674 2.03256 16.7132 2.75 16.299L1.25 13.7009ZM20.7694 5.38817C20.9838 4.58797 20.5089 3.76546 19.7087 3.55105L6.66874 0.0569931C5.86854 -0.15742 5.04603 0.317454 4.83162 1.11765C4.61721 1.91785 5.09208 2.74036 5.89228 2.95477L17.4834 6.0606L14.3776 17.6517C14.1631 18.4519 14.638 19.2744 15.4382 19.4888C16.2384 19.7032 17.0609 19.2284 17.2753 18.4282L20.7694 5.38817ZM2.75 16.299L20.0705 6.29898L18.5705 3.7009L1.25 13.7009L2.75 16.299Z" fill="#B9FF66"/>
+                  </svg>
+                </span> 
+              </span>
+            </div>
+
+            <div class="section_signboard--line"></div>
+
+            <div class="section_signboard__label">
+              <span class="section_signboard__label--text">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</span>
+              <span class="section_signboard__card">
+                <span class="section_signboard__card--link">Learn more</span>
+                <span class="section_signboard__card--item"> 
+                  <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.25 13.7009C0.532561 14.1151 0.286748 15.0325 0.700962 15.7499C1.11518 16.4674 2.03256 16.7132 2.75 16.299L1.25 13.7009ZM20.7694 5.38817C20.9838 4.58797 20.5089 3.76546 19.7087 3.55105L6.66874 0.0569931C5.86854 -0.15742 5.04603 0.317454 4.83162 1.11765C4.61721 1.91785 5.09208 2.74036 5.89228 2.95477L17.4834 6.0606L14.3776 17.6517C14.1631 18.4519 14.638 19.2744 15.4382 19.4888C16.2384 19.7032 17.0609 19.2284 17.2753 18.4282L20.7694 5.38817ZM2.75 16.299L20.0705 6.29898L18.5705 3.7009L1.25 13.7009L2.75 16.299Z" fill="#B9FF66"/>
+                  </svg>
+                </span> 
+              </span>
+            </div>
+          </article>
+        </div>
+
+
+        <header class="section__header">
+          <h2 class="section__title puddle-bg">Our Working Process </h2>
+          <div class="section__description">
+            <p>Step-by-Step Guide to . Your Business Goals</p>
+          </div>
+        </header>
+      </section>
+
+      <section class="section container">
+        <article class="drop-down_list">
+
+          <details class="drop_list" open>
+            <summary class="drop_list__item " >
+              <div class="drop_list__item--lable">
+                <p class="drop_list__item--lable--number">01</p>
+                <p class="drop_list__item--lable--name">Consultation</p>
+              </div>
+              <div class="drop_list__item--btnActive">
+                <div class="drop_list__item--btnActive--buttonY"></div>
+                <div class="drop_list__item--btnActive--buttonX"></div>
+              </div>
+            </summary>
+            <div class="drop_list--info">
+              <div class="drop_list--info--line"></div>
+              <p class="drop_list--info--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, libero. Quis incidunt neque similique, id voluptatem blanditiis porro aliquam mollitia recusandae ipsum quod? Dolor perspiciatis, libero facilis accusamus quasi quos.</p>
+            </div>
+          </details>
+          <details class="drop_list" >
+            <summary class="drop_list__item " >
+              <div class="drop_list__item--lable">
+                <p class="drop_list__item--lable--number">02</p>
+                <p class="drop_list__item--lable--name">Consultation</p>
+              </div>
+              <div class="drop_list__item--btnActive">
+                <div class="drop_list__item--btnActive--buttonY"></div>
+                <div class="drop_list__item--btnActive--buttonX"></div>
+              </div>
+            </summary>
+            <div class="drop_list--info">
+              <div class="drop_list--info--line"></div>
+              <p class="drop_list--info--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, libero. Quis incidunt neque similique, id voluptatem blanditiis porro aliquam mollitia recusandae ipsum quod? Dolor perspiciatis, libero facilis accusamus quasi quos.</p>
+            </div>
+          </details>
+          <details class="drop_list" >
+            <summary class="drop_list__item " >
+              <div class="drop_list__item--lable">
+                <p class="drop_list__item--lable--number">03</p>
+                <p class="drop_list__item--lable--name">Consultation</p>
+              </div>
+              <div class="drop_list__item--btnActive">
+                <div class="drop_list__item--btnActive--buttonY"></div>
+                <div class="drop_list__item--btnActive--buttonX"></div>
+              </div>
+            </summary>
+            <div class="drop_list--info">
+              <div class="drop_list--info--line"></div>
+              <p class="drop_list--info--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, libero. Quis incidunt neque similique, id voluptatem blanditiis porro aliquam mollitia recusandae ipsum quod? Dolor perspiciatis, libero facilis accusamus quasi quos.</p>
+            </div>
+          </details>
+          <details class="drop_list" >
+            <summary class="drop_list__item " >
+              <div class="drop_list__item--lable">
+                <p class="drop_list__item--lable--number">04</p>
+                <p class="drop_list__item--lable--name">Consultation</p>
+              </div>
+              <div class="drop_list__item--btnActive">
+                <div class="drop_list__item--btnActive--buttonY"></div>
+                <div class="drop_list__item--btnActive--buttonX"></div>
+              </div>
+            </summary>
+            <div class="drop_list--info">
+              <div class="drop_list--info--line"></div>
+              <p class="drop_list--info--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, libero. Quis incidunt neque similique, id voluptatem blanditiis porro aliquam mollitia recusandae ipsum quod? Dolor perspiciatis, libero facilis accusamus quasi quos.</p>
+            </div>
+          </details>
+          <details class="drop_list" >
+            <summary class="drop_list__item " >
+              <div class="drop_list__item--lable">
+                <p class="drop_list__item--lable--number">05</p>
+                <p class="drop_list__item--lable--name">Consultation</p>
+              </div>
+              <div class="drop_list__item--btnActive">
+                <div class="drop_list__item--btnActive--buttonY"></div>
+                <div class="drop_list__item--btnActive--buttonX"></div>
+              </div>
+            </summary>
+            <div class="drop_list--info">
+              <div class="drop_list--info--line"></div>
+              <p class="drop_list--info--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, libero. Quis incidunt neque similique, id voluptatem blanditiis porro aliquam mollitia recusandae ipsum quod? Dolor perspiciatis, libero facilis accusamus quasi quos.</p>
+            </div>
+          </details>
+          <details class="drop_list" >
+            <summary class="drop_list__item " >
+              <div class="drop_list__item--lable">
+                <p class="drop_list__item--lable--number">06</p>
+                <p class="drop_list__item--lable--name">Consultation</p>
+              </div>
+              <div class="drop_list__item--btnActive">
+                <div class="drop_list__item--btnActive--buttonY"></div>
+                <div class="drop_list__item--btnActive--buttonX"></div>
+              </div>
+            </summary>
+            <div class="drop_list--info">
+              <div class="drop_list--info--line"></div>
+              <p class="drop_list--info--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, libero. Quis incidunt neque similique, id voluptatem blanditiis porro aliquam mollitia recusandae ipsum quod? Dolor perspiciatis, libero facilis accusamus quasi quos.</p>
+            </div>
+          </details>
+
+
+
+
+        </article>
+      </section>
+
+      <section class="section section--hidden-x container">
+        <header class="section__header">
+          <h2 class="section__title puddle-bg">Testimonials</h2>
+          <div class="section__description">
+            <p>Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</p>
+          </div>
+        </header>
+
+        <div class="section__body">
+          <div class="reviews">
+            <div class="reviews__slider">
+              <ul class="reviews__slider-list">
+                <li class="reviews__slider-item">
+                  <blockquote class="reviews-card">
+                    <div class="reviews-card__body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aspernatur libero ex, eveniet corporis maxime voluptates doloremque iusto modi sapiente ducimus minima sit, ipsa nihil, eius neque in dolore eos?</p>
+                    </div>
+                    <footer class="reviews-card__footer">
+                      <cite class="reviews-card__name">Alex Maralex</cite>
+                      <cite class="reviews-card__company">Turbo asf sehkjskh k;sdh pksdk</cite>
+                    </footer>
+                  </blockquote>
+                </li>
+                <li class="reviews__slider-item">
+                  <blockquote class="reviews-card">
+                    <div class="reviews-card__body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aspernatur libero ex, eveniet corporis maxime voluptates doloremque iusto modi sapiente ducimus minima sit, ipsa nihil, eius neque in dolore eos?</p>
+                    </div>
+                    <footer class="reviews-card__footer">
+                      <cite class="reviews-card__name">Alex Maralex</cite>
+                      <cite class="reviews-card__company">Turbo asf sehkjskh k;sdh pksdk</cite>
+                    </footer>
+                  </blockquote>
+                </li>
+                <li class="reviews__slider-item">
+                  <blockquote class="reviews-card">
+                    <div class="reviews-card__body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aspernatur libero ex, eveniet corporis maxime voluptates doloremque iusto modi sapiente ducimus minima sit, ipsa nihil, eius neque in dolore eos?</p>
+                    </div>
+                    <footer class="reviews-card__footer">
+                      <cite class="reviews-card__name">Alex Maralex</cite>
+                      <cite class="reviews-card__company">Turbo asf sehkjskh k;sdh pksdk</cite>
+                    </footer>
+                  </blockquote>
+                </li>
+                <li class="reviews__slider-item">
+                  <blockquote class="reviews-card">
+                    <div class="reviews-card__body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aspernatur libero ex, eveniet corporis maxime voluptates doloremque iusto modi sapiente ducimus minima sit, ipsa nihil, eius neque in dolore eos?</p>
+                    </div>
+                    <footer class="reviews-card__footer">
+                      <cite class="reviews-card__name">Alex Maralex</cite>
+                      <cite class="reviews-card__company">Turbo asf sehkjskh k;sdh pksdk</cite>
+                    </footer>
+                  </blockquote>
+                </li>
+                <li class="reviews__slider-item">
+                  <blockquote class="reviews-card">
+                    <div class="reviews-card__body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat aspernatur libero ex, eveniet corporis maxime voluptates doloremque iusto modi sapiente ducimus minima sit, ipsa nihil, eius neque in dolore eos?</p>
+                    </div>
+                    <footer class="reviews-card__footer">
+                      <cite class="reviews-card__name">Alex Maralex</cite>
+                      <cite class="reviews-card__company">Turbo asf sehkjskh k;sdh pksdk</cite>
+                    </footer>
+                  </blockquote>
+                </li>
+              </ul>
+            </div>
+            <div class="reviews__actions">
+              <button class="reviews__arrow-button" disabled>
+                <span class="visually-hidden">Previous slide</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 13.5C22.8284 13.5 23.5 12.8284 23.5 12C23.5 11.1716 22.8284 10.5 22 10.5L22 13.5ZM0.939341 10.9393C0.353554 11.5251 0.353554 12.4749 0.93934 13.0607L10.4853 22.6066C11.0711 23.1924 12.0208 23.1924 12.6066 22.6066C13.1924 22.0208 13.1924 21.0711 12.6066 20.4853L4.12132 12L12.6066 3.51472C13.1924 2.92893 13.1924 1.97918 12.6066 1.3934C12.0208 0.807611 11.0711 0.807611 10.4853 1.3934L0.939341 10.9393ZM22 10.5L2 10.5L2 13.5L22 13.5L22 10.5Z" fill="white" fill-opacity="0.3"/>
+                </svg>  
+              </button>
+
+              <div class="reviews__pagination pagination">
+                <ul class="pagination__list">
+                  <li class="pagination__iitem">
+                    <button class="pagination__button is-current">
+                      <span class="visually-hidden">First slide</span>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="white"/>
+                      </svg>
+                    </button>
+                  </li>
+                  <li class="pagination__iitem">
+                    <button class="pagination__button">
+                      <span class="visually-hidden">second slide</span>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="white"/>
+                      </svg>
+                    </button>
+                  </li>
+                  <li class="pagination__iitem">
+                    <button class="pagination__button">
+                      <span class="visually-hidden">third slide</span>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="white"/>
+                      </svg>
+                    </button>
+                  </li>
+                  <li class="pagination__iitem">
+                    <button class="pagination__button">
+                      <span class="visually-hidden">fouth slide</span>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="white"/>
+                      </svg>
+                    </button>
+                  </li>
+                  <li class="pagination__iitem">
+                    <button class="pagination__button">
+                      <span class="visually-hidden">fifth slide</span>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="white"/>
+                      </svg>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+
+              <button class="reviews__arrow-button">
+                <span class="visually-hidden">Next slide</span>
+                <svg class="right" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 10.5C1.17157 10.5 0.5 11.1716 0.5 12C0.5 12.8284 1.17157 13.5 2 13.5L2 10.5ZM23.0607 13.0607C23.6464 12.4749 23.6464 11.5251 23.0607 10.9393L13.5147 1.3934C12.9289 0.807613 11.9792 0.807613 11.3934 1.3934C10.8076 1.97919 10.8076 2.92893 11.3934 3.51472L19.8787 12L11.3934 20.4853C10.8076 21.0711 10.8076 22.0208 11.3934 22.6066C11.9792 23.1924 12.9289 23.1924 13.5147 22.6066L23.0607 13.0607ZM2 13.5L22 13.5L22 10.5L2 10.5L2 13.5Z" fill="white"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+  <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
+    <form class="mobile-overlay__close-button-wrapper" method="dialog">
+      <button
+        class="mobile-overlay__close-button cross-button"
+        type="submit"
+      >
+        <span class="visually-hidden">Close navigation menu</span>
+      </button>
+    </form>
+    <div class="mobile-overlay__body">
+      <ul class="mobile-overlay__list">
+        <li class="mobile-overlay__item">
+          <a class="mobile-overlay__link" href="/">About us</a>
+        </li>
+        <li class="mobile-overlay__item">
+          <a class="mobile-overlay__link" href="/">Services</a>
+        </li>
+        <li class="mobile-overlay__item">
+          <a class="mobile-overlay__link" href="/">Use Cases</a>
+        </li>
+        <li class="mobile-overlay__item">
+          <a class="mobile-overlay__link" href="/">Pricing</a>
+        </li>
+        <li class="mobile-overlay__item">
+          <a class="mobile-overlay__link" href="/">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </dialog>
+</body>
+
+</html>

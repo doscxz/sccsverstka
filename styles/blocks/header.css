@@ -1,0 +1,20 @@
+.header {
+  padding-top: 60px;
+}
+.header__inner {
+  display: flxe;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+.header__menu {
+  margin-left: auto;
+  font-size: 20px;
+}
+.header__menu-list {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}/*# sourceMappingURL=header.css.map */
